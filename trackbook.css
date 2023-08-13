@@ -1,0 +1,90 @@
+body{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+:root{
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+}
+.darkMode{
+    --primary-color: #000106;
+    --secondary-color: #ffff;
+}
+table, th, td {
+  border: 1px solid  rgb(191, 87, 168); 
+  border-collapse: collapse;
+}
+th{
+    width: 60px;
+}
+th{
+    width: 160px;
+}
+.book{
+    font-size: 90px;
+    background-color:  #ffff;
+    border-radius: 30%;
+}
+fieldset{
+    width: 600px;
+    background-color: rgb(191, 87, 168);
+    height: 300px;
+    border: none;
+    border-radius: 30px;
+    align-items: center;
+}
+.h1{
+    text-align: center;
+    font-size: 70px;
+}
+button{
+    cursor: pointer;
+    border: none;
+    margin: 10px;
+    width: 70%;
+    height: 40px;
+    background-color:var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 40px;
+}
+
+#moon{
+    color:#000106;
+    background-color: #ffff;
+    cursor: pointer;
+    text-align: end;
+    border-radius: 50px;
+    justify-content: end;
+    margin-left: 90%;
+}
+input{
+    width: 80%;
+    height: 40px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.pink{
+    color: rgb(191, 87, 168);
+}
+.form{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.table{
+    display: flex;
+    justify-content: center;
+}
+label{
+    font-weight: 900;
+    font-size: 30px;
+    text-align: left;
+}
+#top{
+    color: var(--primary-color);
+    height: 50px;
+    
+}
